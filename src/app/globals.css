@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+main {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.react-datepicker__week {
+  display: flex;
+  justify-content: space-between;
+}
+
+.react-datepicker__day-names {
+  display: flex;
+  justify-content: space-between;
+}
+
+.react-datepicker {
+  width: 100%;
+  display: grid !important;
+}
